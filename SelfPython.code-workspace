@@ -14,6 +14,8 @@
 		"files.eol": "\n",
 		"editor.formatOnSave": true,
 		"python.envFile": "${workspaceFolder}/.env",
+		"python.analysis.autoImportCompletions":true,
+		"python.analysis.indexing": true,
 		"terminal.integrated.env.linux": {
 			// "VIRTUAL_ENV": "/home/shusuke/work_python/SelfPython/.venv",
 			// "PATH": "/home/shusuke/work_python/myproject/.venv/bin:${env:PATH}"

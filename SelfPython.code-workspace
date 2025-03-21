@@ -1,35 +1,34 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../SelfPython.wiki"
-		}
-	],
-	"settings": {
-		"workbench.iconTheme": "vscode-icons",
-		"workbench.colorTheme": "Monokai",
-		"files.encoding": "utf8",
-		"files.eol": "\n",
-		"editor.formatOnSave": true,
-		"python.envFile": "${workspaceFolder}/.env",
-		"python.analysis.autoImportCompletions":true,
-		"python.analysis.indexing": true,
-		"terminal.integrated.env.linux": {
-			// "VIRTUAL_ENV": "/home/shusuke/work_python/SelfPython/.venv",
-			// "PATH": "/home/shusuke/work_python/myproject/.venv/bin:${env:PATH}"
-			"VIRTUAL_ENV": "${workspaceFolder}/.venv",
-			"PATH": "${workspaceFolder}/.venv/bin:${env:PATH}"
-		},
-		"[python]": {
-			"diffEditor.ignoreTrimWhitespace": false,
-			"editor.defaultColorDecorators": "auto",
-			"gitlens.codeLens.symbolScopes": [
-				"!Module"
-			],
-			"editor.formatOnType": true,
-			"editor.wordBasedSuggestions": "off"
-		}
-	}
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../SelfPython.wiki"
+    }
+  ],
+  "settings": {
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Monokai",
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.indexing": true,
+    "terminal.integrated.env.linux": {
+      // "VIRTUAL_ENV": "/home/shusuke/work_python/SelfPython/.venv",
+      // "PATH": "/home/shusuke/work_python/myproject/.venv/bin:${env:PATH}"
+      "VIRTUAL_ENV": "${workspaceFolder}/.venv",
+      "PATH": "${workspaceFolder}/.venv/bin:${env:PATH}"
+    },
+    "[python]": {
+      "diffEditor.ignoreTrimWhitespace": false,
+      "editor.defaultColorDecorators": "auto",
+      "gitlens.codeLens.symbolScopes": ["!Module"],
+      "editor.formatOnType": true,
+      "editor.wordBasedSuggestions": "off"
+    },
+    "liveServer.settings.multiRootWorkspaceName": "SelfPython"
+  }
 }
